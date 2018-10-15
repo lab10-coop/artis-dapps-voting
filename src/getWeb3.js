@@ -33,6 +33,10 @@ let getWeb3 = () => {
               netIdName = 'Sokol'
               console.log('This is Sokol', netId)
               break
+            case constants.NETID_ARTIS:
+              netIdName = 'ARTIS'
+              console.log('This is ARTIS', netId)
+              break
             default:
               netIdName = 'ERROR'
               errorMsg = messages.WRONG_NETWORK_MSG

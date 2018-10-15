@@ -37,6 +37,8 @@ function getBranch(netId) {
       return 'core'
     case constants.NETID_DAI:
       return 'dai'
+    case constants.NETID_ARTIS:
+      return 'ARTIS'
     default:
       return 'core'
   }
