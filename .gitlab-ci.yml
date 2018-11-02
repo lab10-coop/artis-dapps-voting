@@ -1,0 +1,10 @@
+stages:
+  - deploy
+
+staging:
+  stage: deploy
+  script:
+    - cd /var/www/nginx/poa-dapps-voting
+    - git pull
+    - npm install
+    - CI=false npm run build
