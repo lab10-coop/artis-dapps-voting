@@ -28,7 +28,7 @@ constants.NETID_SOKOL = '77'
 constants.NETID_CORE = '99'
 constants.NETID_DAI_TEST = '79'
 constants.NETID_DAI = '100'
-constants.NETID_ARTIS = '4281427'
+constants.NETID_ARTIS = '246785'
 module.exports = {
   constants
 }
