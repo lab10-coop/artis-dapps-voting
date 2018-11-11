@@ -45,6 +45,16 @@ constants.NETWORKS = {
     NAME: 'Dai',
     BRANCH: 'dai',
     TESTNET: false
+  },
+  '4281427': {
+    NAME: 'ARTIS',
+    BRANCH: 'ARTIS',
+    TESTNET: false
+  },
+  '246785': {
+    NAME: 'ARTIS',
+    BRANCH: 'ARTIS',
+    TESTNET: false
   }
 }
 
