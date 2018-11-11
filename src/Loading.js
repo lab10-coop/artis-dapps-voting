@@ -3,7 +3,7 @@ import { constants } from './constants'
 
 const styles = netId => {
   const core = {
-    backgroundColor: 'rgba(78,44,137, 0.9)'
+    backgroundColor: 'rgba(195,218,158, 0.9)'
   }
   const sokol = {
     backgroundColor: 'rgba(47, 109, 99, 0.8)'

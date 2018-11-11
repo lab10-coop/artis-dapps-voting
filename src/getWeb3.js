@@ -43,7 +43,7 @@ let getWeb3 = () => {
         console.log('This is an unknown network.')
       }
 
-      document.title = `${netIdName} - POA Network Governance DApp`
+      document.title = `${netIdName} - ARTIS Governance DApp`
 
       if (errorMsg !== null) {
         reject({ message: errorMsg })
