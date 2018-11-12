@@ -16,7 +16,7 @@ export class BallotEmissionFundsMetadata extends React.Component {
   getEmissionFundsBalance = async () => {
     const { contractsStore } = this.props
     this.emissionFundsBalance =
-      contractsStore.web3Instance.utils.fromWei(await contractsStore.emissionFunds.balance(), 'ether') + ' POA'
+      contractsStore.web3Instance.utils.fromWei(await contractsStore.emissionFunds.balance(), 'ether') + ' ATS'
   }
 
   @action('Get VotingToManageEmissionFunds.noActiveBallotExists')

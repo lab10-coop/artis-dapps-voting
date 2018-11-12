@@ -23,7 +23,7 @@ export class BallotEmissionFundsCard extends React.Component {
             <p className="ballots-about-i--title">Funds Amount</p>
           </div>
           <div className="ballots-about-td ballots-about-td-value">
-            <p>{amount} POA</p>
+            <p>{amount} ATS</p>
           </div>
         </div>
       </BallotCard>
