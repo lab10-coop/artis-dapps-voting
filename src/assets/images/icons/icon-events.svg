@@ -1,1 +1,15 @@
-<svg id="aaa8d0ce-75b3-4663-9b05-3ffefc1d6c24" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><defs><style>.aebe15d1-7662-4213-8c7b-661068079403{fill:#1f382b;fill-rule:evenodd;}</style></defs><title>Zeichenfläche 14</title><path class="aebe15d1-7662-4213-8c7b-661068079403" d="M16.8,13.86H11.55L12.7,15a1,1,0,0,1,0,1.4,1,1,0,0,1-1.39,0h0L8.54,13.61a.94.94,0,0,1-.26-.84.94.94,0,0,1,.26-.61l2.79-2.8a1,1,0,0,1,1.39,0h0a1,1,0,0,1,0,1.4l-1.16,1.17H16.8a.94.94,0,0,1,.95,1v0A1,1,0,0,1,16.8,13.86ZM9.58,5.91,6.77,8.72a1,1,0,0,1-1.4,0h0a1,1,0,0,1,0-1.4L6.53,6.14H1.21a1,1,0,0,1,0-1.92H6.53L5.34,3A1,1,0,0,1,6.75,1.6h0L9.58,4.44a1,1,0,0,1,.28.7v.1s0,0,0,.06A1,1,0,0,1,9.58,5.91Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="aaa8d0ce-75b3-4663-9b05-3ffefc1d6c24"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 18"
+	 style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<title>Zeichenfläche 14</title>
+<path class="st0" d="M16.8,13.9h-5.2l1.1,1.1c0.4,0.4,0.4,1,0,1.4c-0.4,0.4-1,0.4-1.4,0l0,0l-2.8-2.8c-0.2-0.2-0.3-0.5-0.3-0.8
+	c0-0.2,0.1-0.4,0.3-0.6l2.8-2.8c0.4-0.4,1-0.4,1.4,0l0,0c0.4,0.4,0.4,1,0,1.4l-1.2,1.2h5.2c0.5,0,0.9,0.4,1,0.9c0,0,0,0,0,0.1l0,0
+	C17.7,13.4,17.3,13.8,16.8,13.9z M9.6,5.9L6.8,8.7c-0.4,0.4-1,0.4-1.4,0l0,0C5,8.3,5,7.7,5.4,7.3l1.2-1.2H1.2C0.7,6,0.4,5.4,0.5,4.9
+	c0.1-0.3,0.4-0.6,0.7-0.7h5.3L5.3,3C5,2.6,5.1,1.9,5.5,1.6c0.4-0.3,0.9-0.3,1.2,0l0,0l2.8,2.8c0.2,0.2,0.3,0.4,0.3,0.7v0.1
+	c0,0,0,0,0,0.1C9.8,5.5,9.7,5.7,9.6,5.9z"/>
+</svg>

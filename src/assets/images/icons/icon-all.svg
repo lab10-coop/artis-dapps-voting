@@ -1,1 +1,16 @@
-<svg id="b87f1650-0f9c-4def-b4d5-9388e0d3d85d" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><defs><style>.a7a4327d-a45c-412a-a473-0aedd6df3d8c{fill:#1f382b;}</style></defs><title>Zeichenfläche 2</title><path class="a7a4327d-a45c-412a-a473-0aedd6df3d8c" d="M16.5,1.5v2H1.5v-2h15M17,0H1.05A1,1,0,0,0,0,1.05V4A1,1,0,0,0,1.05,5H17A1,1,0,0,0,18,4V1.05A1,1,0,0,0,17,0Z"/><path class="a7a4327d-a45c-412a-a473-0aedd6df3d8c" d="M16.5,8v2H1.5V8h15M17,6.5H1.05a1,1,0,0,0-1,1v2.9A1,1,0,0,0,1.05,11.5H17A1,1,0,0,0,18,10.45V7.55A1,1,0,0,0,17,6.5Z"/><path class="a7a4327d-a45c-412a-a473-0aedd6df3d8c" d="M16.5,14.5v2H1.5v-2h15M17,13H1.05a1,1,0,0,0-1,1.05V17A1,1,0,0,0,1.05,18H17A1,1,0,0,0,18,17v-2.9A1,1,0,0,0,17,13Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="b87f1650-0f9c-4def-b4d5-9388e0d3d85d"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 18"
+	 style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<title>Zeichenfläche 2</title>
+<path class="st0" d="M16.5,1.5v2h-15v-2H16.5 M17,0H1C0.5,0,0,0.4,0,0.9C0,1,0,1,0,1v3c0,0.6,0.4,1,1,1C1,5,1,5,1,5H17
+	c0.6,0,1-0.4,1-1V1C18,0.5,17.6,0,17,0C17,0,17,0,17,0z"/>
+<path class="st0" d="M16.5,8v2h-15V8H16.5 M17,6.5H1c-0.6,0-1,0.4-1,1v2.9c-0.1,0.5,0.3,1,0.9,1.1c0,0,0.1,0,0.1,0H17
+	c0.6,0,1-0.4,1-1c0,0,0,0,0-0.1V7.6C18,7,17.6,6.5,17,6.5C17,6.5,17,6.5,17,6.5z"/>
+<path class="st0" d="M16.5,14.5v2h-15v-2H16.5 M17,13H1c-0.6,0-1,0.4-1,1c0,0,0,0,0,0.1V17c0,0.6,0.4,1,1,1H17c0.6,0,1-0.4,1-1v-2.9
+	c0.1-0.5-0.3-1-0.9-1.1C17.1,13,17,13,17,13z"/>
+</svg>
