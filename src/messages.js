@@ -20,7 +20,7 @@ messages.NO_METAMASK_MSG = `You haven't chosen any account in MetaMask.
 Please, choose your voting key in MetaMask and reload the page.
 Check ARTIS <a href='https://github.com/poanetwork/wiki' target='blank'>wiki</a> for more info.`
 messages.WRONG_NETWORK_MSG = `You aren't connected to ARTIS. 
-Please, switch on POA plugin and refresh the page. 
+Please, switch on ARTIS plugin and refresh the page. 
 Check ARTIS <a href='https://github.com/poanetwork/wiki' target='blank'>wiki</a> for more info.`
 messages.ballotIsNotActiveMsg = timeToStart => {
   return `The ballot is not active yet. Time to start: ${timeToStart}`
