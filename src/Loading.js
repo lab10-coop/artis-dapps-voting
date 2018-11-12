@@ -6,7 +6,7 @@ const styles = netId => {
     backgroundColor: 'rgba(195,218,158, 0.9)'
   }
   const sokol = {
-    backgroundColor: 'rgba(47, 109, 99, 0.8)'
+    backgroundColor: 'rgba(241, 197, 181, 0.8)'
   }
 
   if (netId in constants.NETWORKS) {
