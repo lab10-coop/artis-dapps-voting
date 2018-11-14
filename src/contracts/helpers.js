@@ -3,17 +3,11 @@ import { messages } from '../messages'
 import swal from 'sweetalert2'
 
 function addressesURL(branch) {
-  const URL = `https://raw.githubusercontent.com/${constants.organization}/${constants.repoName}/${branch}/${
-    constants.addressesSourceFile
-  }`
-  return URL
+  return `/networks/${branch}/${constants.addressesSourceFile}`
 }
 
 function ABIURL(branch, contract) {
-  const URL = `https://raw.githubusercontent.com/${constants.organization}/${constants.repoName}/${branch}/abis/${
-    constants.ABIsSources[contract]
-  }`
-  return URL
+  return `/networks/${branch}/abis/` + constants.ABIsSources[contract]
 }
 
 function getABI(branch, contract) {
@@ -27,27 +21,9 @@ function wrongRepoAlert(addr) {
   swal('Error!', messages.wrongRepo(addr), 'error')
 }
 
-function getBranch(netId) {
-  switch (netId) {
-    case constants.NETID_SOKOL:
-      return 'sokol'
-    case constants.NETID_DAI_TEST:
-      return 'dai-test'
-    case constants.NETID_CORE:
-      return 'core'
-    case constants.NETID_DAI:
-      return 'dai'
-    case constants.NETID_ARTIS:
-      return 'ARTIS'
-    default:
-      return 'core'
-  }
-}
-
 module.exports = {
   addressesURL,
   ABIURL,
   getABI,
-  wrongRepoAlert,
-  getBranch
+  wrongRepoAlert
 }

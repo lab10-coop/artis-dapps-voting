@@ -4,7 +4,7 @@
   position: relative;
   &.app-container-open-mobile-menu {
     &:before {
-      background-color: rgba(78, 44, 137, .8);
+      background-color: rgba(131, 234, 72, .8);
       bottom: 0;
       content: '';
       display: none;
@@ -20,7 +20,7 @@
   }
   &.app-container-open-mobile-menu.sokol {
     &:before {
-      background-color: rgba(106, 201, 185, .8);
+      background-color: rgba(233, 123, 156, .8);
     }
   }
 }

@@ -89,12 +89,12 @@ button {
   input[type='radio']:checked + &-label {
     background-color: $primary-color;
     border-color: $primary-color;
-    box-shadow: 0px 5px 10px 0 rgba(92, 52, 162, 0.3);
+    box-shadow: 0px 5px 10px 0 rgba(56, 133, 60, 0.3);
     color: #fff;
     .sokol & {
       background-color: $primary-color-sokol;
       border-color: $primary-color-sokol;
-      box-shadow: 0px 5px 10px 0 rgba(106, 201, 185, 0.3);
+      box-shadow: 0px 5px 10px 0 rgba(233, 123, 156, 0.3);
     }
   }
 }

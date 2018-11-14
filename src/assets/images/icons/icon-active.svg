@@ -1,3 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18">
-    <path fill="#60DB97" fill-rule="evenodd" d="M17 18a1 1 0 0 1-1-1v-1H2v1a1 1 0 0 1-2 0v-2a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1zm0-5H1a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1zm-1-6H2v4h14V7zM4 8h1a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm4 0h6a1 1 0 0 1 0 2H8a1 1 0 0 1 0-2zm9-4H1a1 1 0 0 1-1-1V1a1 1 0 0 1 2 0v1h14V1a1 1 0 0 1 2 0v2a1 1 0 0 1-1 1z"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="a969cfb7-a33d-4d5b-b0a8-26270c08b371"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18 18"
+	 style="enable-background:new 0 0 18 18;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<title>Zeichenfläche 8</title>
+<g>
+	<path class="st0" d="M16.5,1.5v2h-15v-2H16.5 M17,0H1C0.5,0,0,0.4,0,0.9C0,1,0,1,0,1v3c0,0.6,0.4,1,1,1C1,5,1,5,1,5H17
+		c0.6,0,1-0.4,1-1V1C18,0.5,17.6,0,17,0C17,0,17,0,17,0z"/>
+</g>
+<g>
+	<path class="st0" d="M16.5,8v2h-15V8H16.5 M17,6.5H1c-0.6,0-1,0.4-1,1v2.9c-0.1,0.5,0.3,1,0.9,1.1c0,0,0.1,0,0.1,0H17
+		c0.6,0,1-0.4,1-1c0,0,0,0,0-0.1V7.6C18,7,17.6,6.5,17,6.5C17,6.5,17,6.5,17,6.5z"/>
+</g>
+<g>
+	<path class="st0" d="M16.5,14.5v2h-15v-2H16.5 M17,13H1c-0.6,0-1,0.4-1,1c0,0,0,0,0,0.1V17c0,0.6,0.4,1,1,1H17c0.6,0,1-0.4,1-1
+		v-2.9c0.1-0.5-0.3-1-0.9-1.1C17.1,13,17,13,17,13z"/>
+</g>
+<g>
+	<path class="st0" d="M12,9.5H2.5C2.2,9.5,2,9.3,2,9s0.2-0.5,0.5-0.5H12c0.3,0,0.5,0.2,0.5,0.5S12.3,9.5,12,9.5z"/>
+</g>
+<g>
+	<path class="st0" d="M15.5,9.5h-2C13.2,9.5,13,9.3,13,9s0.2-0.5,0.5-0.5h2C15.8,8.5,16,8.7,16,9S15.8,9.5,15.5,9.5z"/>
+</g>
 </svg>

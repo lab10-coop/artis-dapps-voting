@@ -24,11 +24,20 @@ constants.minBallotDurationInDays = 2
 constants.startTimeOffsetInMinutes = 5
 constants.endTimeDefaultInMinutes = 2890
 constants.getTransactionReceiptInterval = 5000
-constants.NETID_SOKOL = '77'
-constants.NETID_CORE = '99'
-constants.NETID_DAI_TEST = '79'
-constants.NETID_DAI = '100'
-constants.NETID_ARTIS = '246785'
+
+constants.NETWORKS = {
+  '246529': {
+    NAME: 'ARTIS Sigma 1',
+    BRANCH: 'sigma1',
+    TESTNET: false
+  },
+  '246785': {
+    NAME: 'ARTIS Tau 1',
+    BRANCH: 'tau1',
+    TESTNET: true
+  }
+}
+
 module.exports = {
   constants
 }
