@@ -26,35 +26,15 @@ constants.endTimeDefaultInMinutes = 2890
 constants.getTransactionReceiptInterval = 5000
 
 constants.NETWORKS = {
-  '77': {
-    NAME: 'Sokol',
-    BRANCH: 'sokol',
-    TESTNET: true
-  },
-  '99': {
-    NAME: 'Core',
-    BRANCH: 'core',
-    TESTNET: false
-  },
-  '79': {
-    NAME: 'Dai-Test',
-    BRANCH: 'dai-test',
-    TESTNET: true
-  },
-  '100': {
-    NAME: 'Dai',
-    BRANCH: 'dai',
-    TESTNET: false
-  },
-  '4281427': {
-    NAME: 'ARTIS',
-    BRANCH: 'ARTIS',
+  '246529': {
+    NAME: 'ARTIS Sigma 1',
+    BRANCH: 'sigma1',
     TESTNET: false
   },
   '246785': {
-    NAME: 'ARTIS',
-    BRANCH: 'ARTIS',
-    TESTNET: false
+    NAME: 'ARTIS Tau 1',
+    BRANCH: 'tau1',
+    TESTNET: true
   }
 }
 

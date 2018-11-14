@@ -3,26 +3,11 @@ import { messages } from '../messages'
 import swal from 'sweetalert2'
 
 function addressesURL(branch) {
-  let org = constants.organization
-  if (branch == 'ARTIS') {
-    org = 'lab10-coop'
-  }
-
-  const URL = `https://raw.githubusercontent.com/${org}/${constants.repoName}/${branch}/${
-    constants.addressesSourceFile
-  }`
-  return URL
+  return `/networks/${branch}/${constants.addressesSourceFile}`
 }
 
 function ABIURL(branch, contract) {
-  let org = constants.organization
-  if (branch == 'ARTIS') {
-    org = 'lab10-coop'
-  }
-  const URL = `https://raw.githubusercontent.com/${org}/${constants.repoName}/${branch}/abis/${
-    constants.ABIsSources[contract]
-  }`
-  return URL
+  return `/networks/${branch}/abis/` + constants.ABIsSources[contract]
 }
 
 function getABI(branch, contract) {
