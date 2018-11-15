@@ -2,7 +2,7 @@
   "name": "poa-dapps-voting",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/lab10-coop/",
+  "homepage": "http://poa-dapps-voting.dev.lab10.io/",
   "dependencies": {
     "ajv": "6.5.2",
     "autoprefixer": "7.1.6",
