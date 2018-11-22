@@ -9,3 +9,4 @@ staging:
     - . ~/.nvm/nvm.sh
     - npm ci
     - CI=false npm run build
+    - ./update-artis-network-specs.sh
