@@ -7,5 +7,5 @@ staging:
     - cd /var/www/nginx/poa-dapps-voting
     - git pull
     - . ~/.nvm/nvm.sh
-    - npm install
+    - npm ci
     - CI=false npm run build
