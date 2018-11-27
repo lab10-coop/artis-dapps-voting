@@ -12,7 +12,7 @@ class CommonStore {
     this.loading = false
     this.isActiveFilter = false
     this.isToFinalizeFilter = false
-    this.rootPath = '/poa-dapps-voting'
+    this.rootPath = ''
     this.loadMoreLimit = 10
   }
 
