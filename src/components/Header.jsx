@@ -24,7 +24,7 @@ export const Header = ({ netId, baseRootPath, navigationData, showMobileMenu, on
         </div>
       )}
       <div className="container">
-        <a className="header-logo-a" href={baseRootPath}>
+        <a className="header-logo-a" href="/">
           <img className="header-logo" src={logoImageName} alt="" />
         </a>
         <div className="links-container">
