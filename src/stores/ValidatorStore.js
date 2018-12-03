@@ -2,19 +2,11 @@ import { observable, action } from 'mobx'
 
 class ValidatorStore {
   @observable fullName
-  @observable address
-  @observable state
-  @observable zipCode
-  @observable licenseID
-  @observable licenseExpiration
+  @observable country
 
   constructor() {
     this.fullName = ''
-    this.address = ''
-    this.state = ''
-    this.zipCode = ''
-    this.licenseID = ''
-    this.licenseExpiration = ''
+    this.country = ''
   }
 
   @action('change validator metadata')
