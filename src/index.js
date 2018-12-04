@@ -107,4 +107,4 @@ class AppMainRouter extends Component {
 }
 
 ReactDOM.render(<AppMainRouter />, document.getElementById('root'))
-registerServiceWorker()
+//registerServiceWorker()
