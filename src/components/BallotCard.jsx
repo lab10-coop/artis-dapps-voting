@@ -88,7 +88,7 @@ export class BallotCard extends React.Component {
     } else {
       let description = 'Finalization is available after ballot time is finished'
       if (this.canBeFinalized !== null) {
-        description += ' or all validators are voted'
+        description += ' or all validators have voted'
       }
       return description
     }
