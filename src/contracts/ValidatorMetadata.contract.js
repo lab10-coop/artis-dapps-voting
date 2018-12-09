@@ -14,15 +14,7 @@ export default class ValidatorMetadata {
   }
 
   async getValidatorFullName(miningKey) {
-    let validator
-    if (this.instance.methods.getValidatorName) {
-      validator = await this.instance.methods.getValidatorName(miningKey).call()
-    } else {
-      validator = await this.instance.methods.validators(miningKey).call()
-    }
-    return {
-      firstName: toAscii(validator.firstName),
-      lastName: toAscii(validator.lastName)
-    }
+    let validator = await this.instance.methods.validators(miningKey).call()
+    return validator.fullAddress
   }
 }

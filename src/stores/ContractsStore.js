@@ -411,11 +411,11 @@ class ContractsStore {
     const keys = await this.poaConsensus.getValidators()
     this.validatorsLength = keys.length
     keys.forEach(async key => {
-      const metadata = await this.validatorMetadata.getValidatorFullName(key)
+      const fullName = await this.validatorMetadata.getValidatorFullName(key)
       this.validatorsMetadata[key.toLowerCase()] = {
-        label: `${key} ${metadata.lastName}`,
-        lastNameAndKey: `${metadata.lastName} ${key}`,
-        fullName: `${metadata.firstName} ${metadata.lastName}`,
+        label: `${key} ${fullName}`,
+        lastNameAndKey: `${fullName} ${key}`,
+        fullName: fullName,
         value: key
       }
     })
