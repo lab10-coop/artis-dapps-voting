@@ -1,7 +1,5 @@
 import React from 'react'
 import { inject, observer } from 'mobx-react'
-import Select from 'react-select'
-import PlacesAutocomplete, { geocodeByAddress } from 'react-places-autocomplete'
 import { constants } from '../constants'
 
 @inject('validatorStore', 'ballotStore')
