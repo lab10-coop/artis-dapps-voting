@@ -166,7 +166,6 @@ class App extends Component {
             </div>
           </div>
           <Route exact path={`/`} render={this.onBallotsRender} />
-          <Route exact path={`${commonStore.rootPath}/`} render={this.onBallotsRender} />
           <Route exact path={`${commonStore.rootPath}/active`} render={this.onActiveBallotsRender} />
           <Route exact path={`${commonStore.rootPath}/tofinalize`} render={this.onToFinalizeBallotsRender} />
           <Route path={`${commonStore.rootPath}/new`} render={this.onNewBallotRender} />
