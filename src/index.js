@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import { Router, Route } from 'react-router-dom'
 import App from './App'
-import registerServiceWorker from './registerServiceWorker'
 import { Provider } from 'mobx-react'
 import { RouterStore, syncHistoryWithStore } from 'mobx-react-router'
 import commonStore from './stores/CommonStore'
@@ -107,4 +106,3 @@ class AppMainRouter extends Component {
 }
 
 ReactDOM.render(<AppMainRouter />, document.getElementById('root'))
-//registerServiceWorker()

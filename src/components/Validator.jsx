@@ -17,12 +17,6 @@ export class Validator extends React.Component {
   }
 
   render() {
-    const { validatorStore } = this.props
-    const inputProps = {
-      value: validatorStore.address,
-      onChange: e => validatorStore.changeValidatorMetadata(e, 'address'),
-      id: 'address'
-    }
     return <div />
   }
 }

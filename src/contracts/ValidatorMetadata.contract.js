@@ -1,6 +1,5 @@
 import { networkAddresses } from './addresses'
 import helpers from './helpers'
-import { toAscii } from '../helpers'
 import { constants } from '../constants'
 
 export default class ValidatorMetadata {

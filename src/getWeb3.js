@@ -2,20 +2,6 @@ import Web3 from 'web3'
 import { messages } from './messages'
 import { constants } from './constants'
 
-let errorMsgNoMetamaskAccount = `You haven't chosen any account in MetaMask.
-Please choose your initial key in MetaMask and reload the page.
-Check ARTIS <a href='https://github.com/poanetwork/wiki' target='blank'>wiki</a> for more info.`
-
-const errorMsgDeniedAccess = 'You have denied access to your accounts'
-
-function generateElement(msg) {
-  let errorNode = document.createElement('div')
-  errorNode.innerHTML = `<div style="line-height: 1.6;">
-    ${msg}
-  </div>`
-  return errorNode
-}
-
 let getWeb3 = () => {
   return new Promise((resolve, reject) => {
     // Wait for loading completion to avoid race conditions with web3 injection timing.

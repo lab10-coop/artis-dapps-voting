@@ -11,7 +11,7 @@ import { BallotEmissionFundsMetadata } from './BallotEmissionFundsMetadata.jsx'
 import { messages } from '../messages'
 import { constants } from '../constants'
 import { sendTransactionByVotingKey } from '../helpers'
-@inject('commonStore', 'ballotStore', 'validatorStore', 'contractsStore', 'routing', 'ballotsStore')
+@inject('commonStore', 'ballotStore', 'contractsStore', 'routing', 'ballotsStore')
 @observer
 export class NewBallot extends React.Component {
   constructor(props) {
@@ -27,7 +27,7 @@ export class NewBallot extends React.Component {
   }
 
   checkValidation() {
-    const { commonStore, contractsStore, ballotStore, validatorStore } = this.props
+    const { commonStore, contractsStore, ballotStore } = this.props
 
     if (!ballotStore.memo) {
       swal('Warning!', messages.DESCRIPTION_IS_EMPTY, 'warning')
@@ -357,7 +357,7 @@ export class NewBallot extends React.Component {
   menuItemActive = ballotType => {
     const { ballotStore } = this.props
 
-    if (ballotType == ballotStore.ballotType) {
+    if (ballotType === ballotStore.ballotType) {
       return 'ballot-types-i ballot-types-i_active'
     } else {
       return 'ballot-types-i'
