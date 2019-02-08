@@ -4,7 +4,7 @@ stages:
 staging:
   stage: deploy
   script:
-    - cd /var/www/nginx/poa-dapps-voting
+    - cd /var/www/nginx/artis-dapps-voting
     - git pull
     - . ~/.nvm/nvm.sh
     - npm ci
