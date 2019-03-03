@@ -28,11 +28,13 @@ constants.getTransactionReceiptInterval = 5000
 constants.NETWORKS = {
   '246529': {
     NAME: 'ARTIS Sigma 1',
+    RPC: 'https://rpc.sigma1.artis.network',
     BRANCH: 'sigma1',
     TESTNET: false
   },
   '246785': {
     NAME: 'ARTIS Tau 1',
+    RPC: 'https://rpc.tau1.artis.network',
     BRANCH: 'tau1',
     TESTNET: true
   }

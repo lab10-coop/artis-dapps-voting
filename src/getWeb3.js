@@ -23,9 +23,9 @@ let getWeb3 = () => {
         web3 = new Web3(window.web3.currentProvider)
         console.log('Injected web3 detected.')
       } else {
-        console.error('Metamask not found')
-        reject({ message: messages.NO_METAMASK_MSG })
-        return
+        console.log('No Web3 injected, falling back to Artis, assuming read only mode')
+        const provider = new Web3.providers.HttpProvider(constants.NETWORKS['246529'].RPC)
+        web3 = new Web3(provider)
       }
 
       const netId = await web3.eth.net.getId()
@@ -51,18 +51,19 @@ let getWeb3 = () => {
       }
 
       const accounts = await web3.eth.getAccounts()
-
+      var injectedWeb3 = true
       var defaultAccount = accounts[0] || null
       if (defaultAccount === null) {
-        reject({ message: messages.NO_METAMASK_MSG })
-        return
+        console.log('no default account available. Read Only Mode.')
+        injectedWeb3 = false
       }
 
       resolve({
         web3Instance: web3,
         netIdName,
         netId,
-        defaultAccount
+        defaultAccount,
+        injectedWeb3
       })
     })
   })
