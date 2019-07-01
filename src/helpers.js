@@ -28,7 +28,7 @@ function sendTransactionByVotingKey(props, to, data, cb, warning) {
     {
       from: contractsStore.votingKey,
       to,
-      gasPrice: web3.utils.toWei('1', 'gwei'),
+      gasPrice: web3.utils.toWei('100', 'gwei'),
       data
     },
     async (error, hash) => {
