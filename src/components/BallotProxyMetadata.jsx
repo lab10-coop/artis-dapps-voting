@@ -15,7 +15,8 @@ export class BallotProxyMetadata extends React.Component {
       /*4*/ { value: '4', label: ballotStore.ProxyBallotType[4] }, // VotingToChangeProxy
       /*5*/ { value: '5', label: ballotStore.ProxyBallotType[5] }, // BallotsStorage
       /*6*/ { value: '7', label: ballotStore.ProxyBallotType[7] }, // ValidatorMetadata
-      /*7*/ { value: '8', label: ballotStore.ProxyBallotType[8] } // ProxyStorage
+      /*7*/ { value: '8', label: ballotStore.ProxyBallotType[8] }, // ProxyStorage
+      /*8*/ { value: '9', label: ballotStore.ProxyBallotType[9] } // RewardByBlock
     ]
 
     if (!contractsStore.proxyStorage || !contractsStore.proxyStorage.doesMethodExist('getValidatorMetadata')) {
