@@ -22,6 +22,7 @@ In order to set up MetaMask for ARTIS, follow the [instructions for tau1](https:
 
 ## Building from source
 
-1) `npm i`
+Requires nodejs v8.
 
+1) `npm ci`   
 2) `npm start`
